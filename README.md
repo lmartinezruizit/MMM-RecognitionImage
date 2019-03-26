@@ -27,8 +27,7 @@ var config = {
     ]
 }
 ```
-```
-In order for this module to do anything useful you have to assign custom classes to your modules. The class default (if you don't change it) is shown if no user is detected or a stranger. The class everyone (if you don't change it) is shown for all users. To specify modules for a certain user, use their name as classname.
+In order for this module to do anything useful you have to assign custom classes to your modules. The class default (if you don't change it) is shown if no city is detected or a stranger. The class everyone (if you don't change it) is shown for all cities. To specify modules for a certain city, use their name as classname.
 ```shell
 {
     module: 'example_module',
